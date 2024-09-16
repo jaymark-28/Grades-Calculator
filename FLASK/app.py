@@ -9,8 +9,8 @@ def calculate_required_grades():
     midterm_weight = 0.30
     final_weight = 0.50
     
-    required_midterm_grade = None
-    required_final_grade = None
+    required_midterm_grade = 75
+    required_final_grade = 75
     error = None
     
     if request.method == 'POST':
